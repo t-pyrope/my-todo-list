@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  background-color: #f8f8f8;
+}
+
+.App {
+  width: calc(100% - 2rem);
+  height: calc(100vh - 2rem);
+}
+
+.todo-list, .chosen-todo {
+  padding: 2rem;
+  overflow: auto;
+}
+
+.todo-list {
+  /*height: 100%;*/
+  height: calc(100vh - 2rem);
+}
+
+.chosen-todo {
+  height: calc((100vh - 2rem) / 2 - 1rem);
+}
+
+.alert {
+  position: absolute;
+  bottom: 1rem;
+  left: 3rem;
+}
